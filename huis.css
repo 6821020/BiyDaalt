@@ -1,0 +1,35 @@
+/* Радио товчлуурын контейнерийн стайл */
+.radio-container {
+    margin-top: 10px;
+  }
+  
+  /* Гарчигтай текстийн стайл */
+  .font {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Радио товчлуурын листийн стайл */
+  .radio-container ul {
+    list-style-type: none; /* Утга: none - жагсаалтын тэмдэгтээ арилгах */
+    padding-left: 0; /* Утга: 0 - листийн өмнө хоосон зай үүсгэх */
+  }
+  
+  /* Радио товчлуурын листийн багаж стайл */
+  .radio-container li {
+    margin-bottom: 5px; /* Листийн доод талын зай */
+  }
+  
+  /* Радио товчлуурын лэйблүүдийн стайл */
+  .radio-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Радио товчлуурын хөлгийн стайл */
+  .radio-input:checked + .radio-label::before {
+    content: "\2022";
+    color: #007bff;
+    font-size: 20px;
+  }
+  
